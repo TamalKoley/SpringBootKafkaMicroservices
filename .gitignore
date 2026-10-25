@@ -1,0 +1,32 @@
+/*/HELP.md
+/*/target/
+/*/build/
+
+# IDE files at the subfolder level
+.idea
+/*/.apt_generated
+/*/.classpath
+/*/.factorypath
+/*/.project
+/*/.settings/
+/*/.springBeans
+/*/.sts4-cache
+/*/.idea/
+/*/*.iws
+/*/*.iml
+/*/*.ipr
+/*/.vscode/
+
+# Specific nested files
+/*/.mvn/wrapper/maven-wrapper.jar
+/*/nbproject/private/
+/*/nbbuild/
+/*/dist/
+/*/nbdist/
+/*/.nb-gradle/
+
+# --- Keep tracking your source targets if needed ---
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
